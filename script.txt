@@ -1,9 +1,10 @@
 #### Getting started with the NVIDIA Jetson Nano
 https://www.pyimagesearch.com/2019/05/06/getting-started-with-the-nvidia-jetson-nano/
 
-#### Install Keras
-# Solution for "ERROR: Could not build wheels for scipy which use PEP 517 and cannot be installed directly"
+#### Install Keras just in case
+#### Solution for "ERROR: Could not build wheels for scipy which use PEP 517 and cannot be installed directly"
+#### https://devtalk.nvidia.com/default/topic/1049362/jetson-nano/does-nano-support-keras-gpu-/post/5325752/#5325752
 python3 -m pip install --no-use-pep517 keras
 
 #### Install Opencv 3.4.6 on Jetson Nano
-https://jkjung-avt.github.io/opencv-on-nano/
+#### https://jkjung-avt.github.io/opencv-on-nano/
