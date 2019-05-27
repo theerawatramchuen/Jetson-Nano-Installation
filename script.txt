@@ -1,3 +1,6 @@
-# Install Keras
+#### Install Keras
 # Solution for "ERROR: Could not build wheels for scipy which use PEP 517 and cannot be installed directly"
 python3 -m pip install --no-use-pep517 keras
+
+#### Install Opencv 3.4.6 on Jetson Nano
+https://jkjung-avt.github.io/opencv-on-nano/
