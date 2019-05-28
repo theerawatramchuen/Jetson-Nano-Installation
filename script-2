@@ -13,3 +13,9 @@ pip install numpy --user
 pip install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
 pip install scipy --user
 pip install keras --user
+sudo fallocate -l 4G /var/swapfile
+sudo chmod 600 /var/swapfile
+sudo mkswap /var/swapfile
+sudo swapon /var/swapfile
+sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
+free -h
