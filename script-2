@@ -19,4 +19,5 @@ sudo mkswap /var/swapfile
 sudo swapon /var/swapfile
 sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
 free -h
-sh install_opencv4.0.0_Nano.sh
+mkdir opencv
+sh install_opencv4.0.0_Nano.sh opencv
