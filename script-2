@@ -11,3 +11,5 @@ rm get-pip.py
 pip install protobuf>=3.3.0
 pip install numpy --user
 pip install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
+pip install scipy --user
+pip install keras --user
