@@ -23,7 +23,6 @@ sh install_opencv4.0.0_Nano.sh
 ...Note pad...
 export PYTHONPATH=$PYTHONPATH:/home/thee/opencv/opencv-4.0.0/release/lib/
 export PYTHONPATH=$PYTHONPATH:/home/thee/src/opencv-3.4.6/build/lib/
-export OPENCV_PYTHON3_INSTALL_PATH=
 
 find ~/opencv -name 'cv2*.so'
 find ~/src/opencv-3.4.6 -name 'cv2*.so'
