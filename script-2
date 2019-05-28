@@ -1,4 +1,4 @@
-Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
+### Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
 sudo apt update
 sudo apt upgrade
 sudo apt-get install git cmake
@@ -15,7 +15,6 @@ pip install scipy --user
 pip install keras --user
 
 ### Create Swapfile
-###
 sudo fallocate -l 4G /var/swapfile
 sudo chmod 600 /var/swapfile
 sudo mkswap /var/swapfile
@@ -24,15 +23,16 @@ sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
 free -h
 
 ### OpenCV 4.0
-###
 mkdir opencv
 sh install_opencv4.0.0_Nano.sh opencv
 
 ### Compiling and installing Jetson Inference on the Nano
-###
 git clone https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
 git submodule update --init
 git clone https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
 git submodule update --init
+mkdir build
+cd build
+cmake ..
