@@ -25,6 +25,11 @@ free -h
 ### OpenCV 4.0
 mkdir opencv
 sh install_opencv4.0.0_Nano.sh opencv
+gedit ~/.bashrc
+## add last line as below
+export PYTHONPATH=$PYTHONPATH:/home/thee/opencv/opencv-4.0.0/release/lib/python3/cv2.cpython-36m-aarch64-linux-gnu.so
+## save & exit gedit
+source ~/.bashrc
 
 ### Compiling and installing Jetson Inference on the Nano
 git clone https://github.com/dusty-nv/jetson-inference
