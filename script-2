@@ -1,4 +1,4 @@
-Commandline list of Installation Python, Keras, OpenCV
+Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
 sudo apt update
 sudo apt upgrade
 sudo apt-get install git cmake
