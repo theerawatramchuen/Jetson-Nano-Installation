@@ -13,11 +13,26 @@ pip install numpy --user
 pip install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
 pip install scipy --user
 pip install keras --user
+
+### Create Swapfile
+###
 sudo fallocate -l 4G /var/swapfile
 sudo chmod 600 /var/swapfile
 sudo mkswap /var/swapfile
 sudo swapon /var/swapfile
 sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
 free -h
+
+### OpenCV 4.0
+###
 mkdir opencv
 sh install_opencv4.0.0_Nano.sh opencv
+
+### Compiling and installing Jetson Inference on the Nano
+###
+git clone https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+git submodule update --init
+git clone https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+git submodule update --init
