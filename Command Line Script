@@ -58,3 +58,5 @@ Using TensorFlow backend.
 >>> exit()
 $ 
 
+You should get above verification results and you are ready for Keras-Tensorflow and Opencv development.
+:)
