@@ -26,10 +26,8 @@ free -h
 mkdir opencv
 sh install_opencv4.0.0_Nano.sh opencv
 gedit ~/.bashrc
-## add to last line as below to locate cv2*.so for PYTHONPATH Pls replace 'thee' with your user name.
-## You can try find command to locate path of file 'cv2.cpython-36m-aarch64-linux-gnu.so' in opencv folder as below.
-## $ find ~/opencv -name 'cv2.cpython-36m-aarch64-linux-gnu.so'
-## /home/thee/opencv/opencv-4.0.0/release/lib/python3/cv2.cpython-36m-aarch64-linux-gnu.so
+## goto to last line of the file then add as below command to locate file 'cv2.cpython-36m-aarch64-linux-gnu.so' for PYTHONPATH.
+## You must replace 'thee' with your user name.
 export PYTHONPATH=$PYTHONPATH:/home/thee/opencv/opencv-4.0.0/release/lib/python3/
 ## save & exit gedit
 source ~/.bashrc
@@ -45,8 +43,7 @@ mkdir build
 cd build
 cmake ..
 
-
-## Testing Complete of Installation
+## Verify Complete of Installation
 $ python3
 Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
 [GCC 8.2.0] on linux
