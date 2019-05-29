@@ -26,7 +26,7 @@ free -h
 mkdir opencv
 sh install_opencv4.0.0_Nano.sh opencv
 gedit ~/.bashrc
-## add to last line as below to locate cv2.so for PYTHONPATH
+## add to last line as below to locate cv2*.so for PYTHONPATH Pls replace 'thee' with your user name.
 export PYTHONPATH=$PYTHONPATH:/home/thee/opencv/opencv-4.0.0/release/lib/python3/
 ## save & exit gedit
 source ~/.bashrc
