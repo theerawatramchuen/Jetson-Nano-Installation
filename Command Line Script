@@ -41,3 +41,20 @@ git submodule update --init
 mkdir build
 cd build
 cmake ..
+
+
+## Testing Complete of Installation
+$ python3
+Python 3.6.7 (default, Oct 22 2018, 11:32:17) 
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import keras
+Using TensorFlow backend.
+>>> print (keras.__version__)
+2.2.4
+>>> import cv2
+>>> print (cv2.__version__)
+4.0.0
+>>> exit()
+$ 
+
