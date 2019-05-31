@@ -13,5 +13,5 @@ https://medium.com/@heldenkombinat/getting-started-with-the-jetson-nano-37af65a0
 https://jkjung-avt.github.io/opencv-on-nano/
 
 #### Install Opencv 4.0 on Jetson Nano
-wget -o https://github.com/AastaNV/JEP/blob/master/script/install_opencv4.0.0_Nano.sh
-sh install_opencv4.0.0_Nano.sh
+https://github.com/AastaNV/JEP/blob/master/script/install_opencv4.0.0_Nano.sh
+
