@@ -59,7 +59,10 @@ Using TensorFlow backend.
 >>> print (cv2.__version__)
 4.0.0
 >>> exit()
-$ 
+
+## Running Your first Machine Learning Models
+$ cd ~/jetson-inference/build/aarch64/bin
+$ ./detectnet-console ~/dog.jpg out.jpg coco-dog
 
 You should get above verification results and you are ready for Keras-Tensorflow and Opencv development.
 :)
