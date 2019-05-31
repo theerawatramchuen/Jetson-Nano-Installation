@@ -61,6 +61,7 @@ Using TensorFlow backend.
 >>> exit()
 
 ## Running Your first Machine Learning Models
+## Warning The first time you run the demo applications, TensorRT may take “up to a few minutes” to optimise the network. While the optimised network file is cached to disk the first time it’s used, and things will run faster next time, they aren’t kidding. The first time you run a model you may assume that the code has hung and it’s not working. I know I did, because it’s more than “a few minutes.”
 $ cd ~/jetson-inference/build/aarch64/bin
 $ ./detectnet-console ~/dog.jpg out.jpg coco-dog
 
