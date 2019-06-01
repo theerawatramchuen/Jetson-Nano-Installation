@@ -15,6 +15,7 @@ pip install --extra-index-url https://developer.download.nvidia.com/compute/redi
 pip install pillow --user
 pip install scipy --user
 pip install keras --user
+pip install matplotlib --user
 
 ### Create Swapfile
 sudo fallocate -l 4G /var/swapfile
