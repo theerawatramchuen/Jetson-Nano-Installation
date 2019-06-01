@@ -16,6 +16,7 @@ pip install pillow --user
 pip install scipy --user
 pip install keras --user
 pip install matplotlib --user
+pip install utils --user
 
 ### Create Swapfile
 sudo fallocate -l 4G /var/swapfile
