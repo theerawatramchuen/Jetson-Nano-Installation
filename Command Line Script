@@ -1,4 +1,5 @@
 ### Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
+### Recommend to install with micrroSD 64GB
 sudo apt update
 sudo apt upgrade
 sudo apt-get install git cmake
