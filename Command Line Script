@@ -1,3 +1,11 @@
+### Create Swapfile
+sudo fallocate -l 4G /var/swapfile
+sudo chmod 600 /var/swapfile
+sudo mkswap /var/swapfile
+sudo swapon /var/swapfile
+sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
+free -h
+
 ### Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
 ### Recommend to install with micrroSD 64GB
 sudo apt update
@@ -18,14 +26,6 @@ pip install scipy --user
 pip install keras --user
 pip install matplotlib --user
 pip install utils --user
-
-### Create Swapfile
-sudo fallocate -l 4G /var/swapfile
-sudo chmod 600 /var/swapfile
-sudo mkswap /var/swapfile
-sudo swapon /var/swapfile
-sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
-free -h
 
 ### OpenCV 4.0
 mkdir opencv
