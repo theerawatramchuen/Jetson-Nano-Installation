@@ -20,3 +20,6 @@ https://blog.hackster.io/getting-started-with-the-nvidia-jetson-nano-developer-k
 
 #### Jetson-stats is a package to monitoring and control your NVIDIA Jetson [Nano, Xavier, TX2i, TX2, TX1] embedded board. 
 https://github.com/rbonghi/jetson_stats?fbclid=IwAR2euMUw8GKdKf6eyyxIFWngUwku_VHm3FBM-fXURWf5ZLGon1Sn3AY9QlM
+
+#### IDS Camera Lib installation
+https://www.ensenso.com/manual/installation-on-nvidia-jetson.htm
