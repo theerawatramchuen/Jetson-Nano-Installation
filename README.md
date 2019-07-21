@@ -23,3 +23,6 @@ https://github.com/rbonghi/jetson_stats?fbclid=IwAR2euMUw8GKdKf6eyyxIFWngUwku_VH
 
 #### IDS Camera Lib installation
 https://www.ensenso.com/manual/installation-on-nvidia-jetson.htm
+
+### Sample cv2.VideoCapture() of Opencv
+https://www.programcreek.com/python/example/85663/cv2.VideoCapture
