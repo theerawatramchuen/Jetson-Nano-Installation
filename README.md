@@ -26,3 +26,6 @@ https://www.ensenso.com/manual/installation-on-nvidia-jetson.htm
 
 ### Sample cv2.VideoCapture() of Opencv
 https://www.programcreek.com/python/example/85663/cv2.VideoCapture
+
+### Darknet YOLO v3 on Jetson Nano
+https://ai4sig.org/2019/06/jetson-nano-darknet-yolov3/?fbclid=IwAR0yq3C2yRK4WVe56UGH_V78Q8eQBYBPq-SG9HDou3tqChKiVvZ9-AC5kes
