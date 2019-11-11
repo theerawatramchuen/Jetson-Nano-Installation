@@ -70,3 +70,6 @@ $ ./detectnet-console ~/dog.jpg out.jpg coco-dog
 
 You should get above verification results and you are ready for Keras-Tensorflow and Opencv development.
 :)
+
+## Check cuda version
+$cat /usr/local/cuda/version.txt
