@@ -1,4 +1,4 @@
-cd ~/jetson-inference/build/aarch64/bin    ########### With USB2 Webcam
+cd ~/jetson-inference/build/aarch64/bin    ########### With USB2 Webcam (Change Camera resolution macth with your camera)
 
 ############# Image Classification
 $ python3 imagenet-camera.py --model=resnet18 --input_blob=input_0 --output_blob=output_0 --labels=labels.txt --width=640 --height=480 --camera=/dev/video0
@@ -24,10 +24,12 @@ $ ./imagenet-camera --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_2
 $ NET=networks/ebsx3c
 $ ./imagenet-console P3-111.jpg output_0.jpg --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_2850.caffemodel --labels=$NET/labels.txt --input_blob=data --output_blob=softmax
 
-############ DeepStream
+############ DeepStream  Resnet18 and Yolotiny3  
 $ cd ~/opt/nvidia/deepstream/deepstream-4.0/bin
 $ deepstream-app -c /opt/nvidia/deepstream/deepstream-4.0/samples/configs/deepstream-app/source1_usb_dec_infer_resnet_int8.txt
 
+$ cd ~/opt/nvidia/deepstream/deepstream-4.0/sources/objectDetector_Yolo
+$ deepstream-app -c deepstream_app_config_yoloV3_tiny.txt
 
 
 
