@@ -33,3 +33,5 @@ https://ai4sig.org/2019/06/jetson-nano-darknet-yolov3/?fbclid=IwAR0yq3C2yRK4WVe5
 ### Hello AI World : NVIDIA Jetson
 ![](https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg)
 https://github.com/dusty-nv/jetson-inference
+
+<iframe src="https://www.tmd.go.th/daily_forecast_forweb.php" width="180" height="260" scrolling="no" frameborder="0"></iframe>
