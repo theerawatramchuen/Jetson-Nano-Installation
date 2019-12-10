@@ -34,4 +34,5 @@ https://ai4sig.org/2019/06/jetson-nano-darknet-yolov3/?fbclid=IwAR0yq3C2yRK4WVe5
 ![](https://github.com/dusty-nv/jetson-inference/raw/master/docs/images/deep-vision-header.jpg)
 https://github.com/dusty-nv/jetson-inference
 
-<iframe src="https://www.tmd.go.th/daily_forecast_forweb.php" width="180" height="260" scrolling="no" frameborder="0"></iframe>
+### Jetson Deep Learning Platform TensorRT, Darknet Yolo3, Yolo3 4 Py, Caffe, Pytorch
+https://medium.com/@yanweiliu/nvidia-jetson-nano%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BA%8C-%E9%80%B2%E8%A1%8C%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92-643e6c078f94
