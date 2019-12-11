@@ -31,6 +31,7 @@ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev libatlas-base-
 
 git clone https://github.com/NVIDIA/caffe.git $CAFFE_ROOT
  
+cd caffe
 
 >> Edit Makefile.config.example
 
