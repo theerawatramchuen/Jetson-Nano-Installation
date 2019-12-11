@@ -1,0 +1,69 @@
+https://blog.csdn.net/lun55423/article/details/100177138
+
+JetsonNano安装Caffe
+转载lun55423 发布于2019-08-31 20:56:59 阅读数 17  收藏
+展开
+Hi,
+
+Your GPU compute capacity is incorrect. Nano is sm=53, not sm=62.
+
+Here is my installation steps for your reference:
+
+ 
+
+1. Install dependencies
+
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository multiverse
+ 
+
+sudo apt-get install libboost-dev libboost-all-dev
+sudo apt-get install libjpeg-turbo8-dev libjpeg8-dev libturbojpeg0-dev
+sudo apt-get install liblapack-dev liblapack3 libopenblas-base libopenblas-dev
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev libatlas-base-dev liblmdb-dev libblas-dev libatlas-base-dev libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler
+ 
+
+ 
+
+2. Prepare source
+
+git clone https://github.com/NVIDIA/caffe.git $CAFFE_ROOT
+ 
+
+>> Edit Makefile.config.example
+
++++ USE_CUDNN := 1
+ 
+
++++ OPENCV_VERSION := 3
+ 
+
++++ WITH_PYTHON_LAYER := 1
+ 
+
+--- CUDA_ARCH := -gencode arch=compute_50,code=sm_50 \
+--- -gencode arch=compute_52,code=sm_52 \
+--- -gencode arch=compute_60,code=sm_60 \
+--- -gencode arch=compute_61,code=sm_61 \
+--- -gencode arch=compute_61,code=compute_61
++++ CUDA_ARCH := -gencode arch=compute_53,code=sm_53 \
++++ -gencode arch=compute_53,code=compute_53
+
+
+3. Build
+
+cp Makefile.config.example Makefile.config
+make -j4
+make pycaffe
+export PYTHONPATH=$PWD/python:$PYTHONPATH
+ 
+
+ 
+
+I can build caffe successfully with the steps above.
+
+Thanks.
+
+ 
