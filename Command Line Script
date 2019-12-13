@@ -39,16 +39,16 @@ export PYTHONPATH=$PYTHONPATH:/home/thee/opencv/opencv-4.0.0/release/lib/python3
 source ~/.bashrc
 
 ### Compiling and installing Jetson Inference on the Nano
-git clone https://github.com/dusty-nv/jetson-inference
-cd jetson-inference
-git submodule update --init
-git clone https://github.com/dusty-nv/jetson-inference
-cd jetson-inference
-mkdir build
-cd build
-cmake ../
-make
-sudo make install
+$ sudo apt-get update
+$ sudo apt-get install git cmake libpython3-dev python3-numpy
+$ git clone --recursive https://github.com/dusty-nv/jetson-inference
+$ cd jetson-inference
+$ mkdir build
+$ cd build
+$ cmake ../
+$ make
+$ sudo make install
+$ sudo ldconfig
 
 ## Verify Complete of Installation
 $ python3
@@ -67,7 +67,7 @@ Using TensorFlow backend.
 ## Running Your first Machine Learning Models
 ## Warning The first time you run the demo applications, TensorRT may take “up to a few minutes” to optimise the network. While the optimised network file is cached to disk the first time it’s used, and things will run faster next time, they aren’t kidding. The first time you run a model you may assume that the code has hung and it’s not working. I know I did, because it’s more than “a few minutes.”
 $ cd ~/jetson-inference/build/aarch64/bin
-$ ./detectnet-console ~/dog.jpg out.jpg coco-dog
+$ ./detectnet-console /imanges/dog_0.jpg out.jpg
 
 You should get above verification results and you are ready for Keras-Tensorflow and Opencv development.
 :)
