@@ -6,6 +6,9 @@ sudo swapon /var/swapfile
 sudo bash -c 'echo "/var/swapfile swap swap defaults 0 0" >> /etc/fstab'
 free -h
 
+## Check cuda version
+$cat /usr/local/cuda/version.txt
+
 ### Commandline list of Installation Python3, Tensorflow-GPU, Keras, OpenCV4.0
 ### Recommend to install with micrroSD 64GB
 sudo apt update
@@ -74,5 +77,3 @@ $ ./detectnet-camera.py --camera=/dev/video0 --width=640 --height=480
 You should get above verification results and you are ready for Keras-Tensorflow and Opencv development.
 :)
 
-## Check cuda version
-$cat /usr/local/cuda/version.txt
