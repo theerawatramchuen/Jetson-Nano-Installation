@@ -25,8 +25,8 @@ pip install --extra-index-url https://developer.download.nvidia.com/compute/redi
 pip install pillow --user
 pip install scipy --user
 pip install keras --user
-pip install matplotlib --user
 pip install utils --user
+sudo apt-get install python3-matplotlib
 
 ### OpenCV 4.0
 mkdir opencv
