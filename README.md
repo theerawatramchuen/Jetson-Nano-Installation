@@ -3,6 +3,7 @@ Summary installation script line by line for Keras 2.2.2 + Tensorflow-gpu and Op
 
 #### How to configure your NVIDIA Jetson Nano for Computer Vision and Deep Learning
 https://www.pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/
+![](https://www.pyimagesearch.com/wp-content/uploads/2020/03/nano_config_header-768x513.png)
 
 #### Credit below web pages.
 #### Getting started with the NVIDIA Jetson Nano
