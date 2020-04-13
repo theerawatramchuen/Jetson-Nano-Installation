@@ -5,7 +5,7 @@ Summary installation script line by line for Keras 2.2.2 + Tensorflow-gpu and Op
 https://www.pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/
 
 #### Note: Correct Symbolic link in Step#14 as below
-$ cd ~/.virtualenvs/py3cv4/lib/python-3.6/site-packages/
+$ cd ~/.virtualenvs/py3cv4/lib/python-3.6/site-packages/ <br/>
 $ ln -s /usr/local/lib/python3.6/site-packages/cv2/python-3.6/cv2.cpython-36m-aarch64-linux-gnu.so cv2.so
 
 ![](https://www.pyimagesearch.com/wp-content/uploads/2020/03/nano_config_header-768x513.png)
