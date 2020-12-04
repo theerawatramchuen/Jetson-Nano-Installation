@@ -1,6 +1,9 @@
 # Jetson-Nano-Installation
 Summary installation script line by line for Keras 2.2.2 + Tensorflow-gpu and Opencv4.0
 
+#### YOLOv4 on Jetson Nano
+https://jkjung-avt.github.io/yolov4/
+
 #### How to configure your NVIDIA Jetson Nano for Computer Vision and Deep Learning (Must see Note:)
 https://www.pyimagesearch.com/2020/03/25/how-to-configure-your-nvidia-jetson-nano-for-computer-vision-and-deep-learning/
 
