@@ -1,4 +1,7 @@
-# Jetson-Nano-Installation
+#### Install OpenCV 4.5 with GPU and CUDA on Jetson-nano
+https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html
+
+#### Jetson-Nano-Installation
 Summary installation script line by line for Keras 2.2.2 + Tensorflow-gpu and Opencv4.0
 
 #### YOLOv4 on Jetson Nano
