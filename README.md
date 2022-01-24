@@ -1,12 +1,12 @@
-###How to Disable Desktop GUI on Jetson Modules
+### How to Disable Desktop GUI on Jetson Modules
 In this blog post, we will show how to disable the desktop environment to save memory on RAM. This will help you to save space and time when training models on machine learning applications by disabling the programs running on the desktop. 
-####If you want to disable the Desktop GUI only temporarily run the following command.
+#### If you want to disable the Desktop GUI only temporarily run the following command.
 sudo init 3 
-####To enable the desktop when you finish, run the following command.
+#### To enable the desktop when you finish, run the following command.
 sudo init 5 
-####If you wish to stop Desktop GUI on every reboot, run the following command.
+#### If you wish to stop Desktop GUI on every reboot, run the following command.
 sudo systemctl set-default multi-user.target
-####To enable GUI again, run the following command.
+#### To enable GUI again, run the following command.
 sudo systemctl set-default graphical.target
 
 #### Install OpenCV 4.5 with GPU and CUDA on Jetson-nano
