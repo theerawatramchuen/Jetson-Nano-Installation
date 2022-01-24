@@ -1,3 +1,9 @@
+#### How to Disable Desktop GUI on Jetson Modules
+sudo init 3
+
+#### How to Enable Desktop GUI on Jetson Modules
+sudo init 5
+
 #### Install OpenCV 4.5 with GPU and CUDA on Jetson-nano
 https://qengineering.eu/install-opencv-4.5-on-jetson-nano.html
 
