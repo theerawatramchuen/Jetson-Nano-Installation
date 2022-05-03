@@ -1,3 +1,5 @@
+### Team Viewer Installation for Remote Desktop Operation
+https://blog.visionify.ai/how-to-install-teamviewer-on-a-jetson-nano-38080f87f039
 ### How to Disable Desktop GUI on Jetson Modules
 In this blog post, we will show how to disable the desktop environment to save memory on RAM. This will help you to save space and time when training models on machine learning applications by disabling the programs running on the desktop. 
 #### If you want to disable the Desktop GUI only temporarily run the following command.
